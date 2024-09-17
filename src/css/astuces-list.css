@@ -1,0 +1,59 @@
+.butBtn {
+  display: flex;
+  justify-content: end;
+}
+
+.ajouterAstuce {
+  background-color: #046516;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+}
+
+.ajouterAstuce a {
+  text-decoration: none;
+  color: beige;
+}
+
+.ajouterAstuce:hover {
+  background-color: #ff6600;
+}
+
+.domaine {
+  text-align: center;
+  color: #046516;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+
+.fiched {
+  width: 700px;
+  margin: auto;
+  padding: 40px 0 1px 0;
+  border: 0.5px solid rgb(204, 218, 218);
+  border-radius: 5px;
+  background-color: beige;
+  color: darkslategrey;
+  font-size: 20px;
+}
+
+.fiche {
+  margin-bottom: 50px;
+}
+
+.fiche h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.fiche p {
+  filter: contrast(50%);
+  padding: 0 30px;
+  text-align: justify;
+}
+
+.fiche:nth-child(3) p {
+  font-size: 12px;
+  text-align: end;
+}

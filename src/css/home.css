@@ -3,112 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
-#headerUp {
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 50px;
-  }
-  
-  #headerUp #logoHortus {
-    width: 200px;
-  }
-  
-  #headerUp #logoConnect img {
-    width: 40px;
-  }
-  
-  #logoConnect,
-  #connectLogo {
-    filter: contrast(50%);
-    flex-wrap: wrap;
-  }
-  
-  #logoConnect
-    nav
-    a
-    #connectLogo[title="Voulez-vous vraiment vous déconnecter?"] {
-  }
-  
-  #headerUp #logoConnect ul,
-  #headerDown ul {
-    width: 600px;
-  }
-  
-  #headerUp #logoConnect ul,
-  #headerDown ul {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  #logoConnect li:nth-child(4) {
-    text-align: center;
-    color: #046516;
-  }
-  
-  #headerUp li,
-  #headerDown li,
-  #footer li {
-    list-style: none;
-  }
-  
-  #headerUp a,
-  #footer li {
-    color: darkslategrey;
-  }
-  
-  #headerUp a,
-  #headerDown li a {
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  #headerUp a:hover,
-  #footerDiv li a:hover {
-    color: #ff6600;
-  }
-  
-  #headerUp a:active,
-  #footerDiv li a:active {
-    color: #ff6600;
-  }
-  
-  /* HEADER - CENTER */
-  #headerCenter {
-    text-align: center;
-    color: darkslategrey;
-    border: 0.2px solid rgb(204, 218, 218);
-    font-size: 25px;
-    padding: 30px 0px;
-    background-color: beige;
-  }
-  
-  /* HEADER - DOWN */
-  #headerDown,
-  #headerDown ul {
-    width: 100%;
-  }
-  #headerDown {
-    height: 100px;
-    display: flex;
-    justify-content: end;
-    color: white;
-  }
-  
-  #headerDown li {
-    width: 150px;
-    background-color: #adcfcb;
-    padding: 15px;
-    border: 0.5px solid beige;
-    text-align: center;
-  }
-  
-  #headerDown li a {
-    color: #046516;
-    font-weight: bold;
-  }
   
   /* AGIR*/
   /* QUI SOMMES-NOUS **/
@@ -118,8 +13,8 @@
   }
   
   .content h1,
-  .content #qui,
-  .content #partenaires {
+  .content .qui,
+  .content .partenaires {
     text-align: center;
     line-height: 80px;
     color: #046516;
@@ -140,22 +35,18 @@
     padding: 0 0 60px 0;
   }
   
-  #references p {
+  .references p {
     font-size: 10px;
     font-style: italic;
   }
   
   /* PARTENAIRES */
-  .content #partenairesDiv {
+.partenairesDiv {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
   }
   
-  .content .partenaire {
-    width: 150px;
-  }
-  
-  .content .partenaire img {
+.partenairesDiv img {
     width: 150px;
   }
