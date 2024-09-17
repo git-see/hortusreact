@@ -2,7 +2,7 @@ import React from "react";
 import logoHortus from "../images/logoHortus.png";
 import connexion from "../images/connexion.png";
 import { NavLink } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link'
+import { HashLink } from 'react-router-hash-link';
 
 
 export default function Header() {

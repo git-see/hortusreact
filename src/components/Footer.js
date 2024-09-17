@@ -1,3 +1,5 @@
+import Popup from "./Popup";
+
 export default function Footer() {
   return (
     <div className="footer" id="footer">
@@ -17,43 +19,8 @@ export default function Footer() {
           </div>
           <div>
             <ul>
-              <div className="overlay"></div>
-              <div className="popup">
-                <div className="popup-inner">
-                  <input
-                    type="button"
-                    name="Close"
-                    className="btn-close"
-                    onclick="popupClose();"
-                    value="&times;"
-                  />
-
-                  <div className="textRgpd"></div>
-                  <br />
-                  <div className="divRgpd">
-                    <h2>Règlement général sur la protection des données</h2>
-                    <p> Tout contenu irrespectueux sera supprimé</p>
-                    <p>
-                      {" "}
-                      Vous pouvez exprimer votre désaccord à tout moment en nous
-                      contactant:
-                    </p>
-                    <p>
-                      0 rue dici 00000 VILLE &nbsp; hortus.mail@mail &nbsp; tél:
-                      00.00.00.00.00
-                    </p>
-                  </div>
-                </div>
-              </div>
               <li>
-                <a
-                  href="#"
-                  className="s3-btn"
-                  name="Open"
-                  onclick="popupOpen();"
-                >
-                  RGPD
-                </a>
+                <Popup />
               </li>
               <li>
                 <a href="https://github.com/git-see/welcome">GitHub</a>
@@ -63,7 +30,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-      <script src="/src/js/footer.js"></script>
     </div>
   );
 }
