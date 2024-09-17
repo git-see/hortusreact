@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function Connexion() {
   return (
     <div className="connexion">
@@ -37,7 +39,7 @@ export default function Connexion() {
             </button>
           </div>
           <p>
-            <a href="inscription.php">M'inscrire</a>
+          <NavLink to="/inscription">M'inscrire</NavLink>
           </p>
         </div>
       </form>
