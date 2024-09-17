@@ -2,6 +2,8 @@ import React from "react";
 import logoHortus from "../images/logoHortus.png";
 import connexion from "../images/connexion.png";
 import { NavLink } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link'
+
 
 export default function Header() {
     return (
@@ -16,8 +18,8 @@ export default function Header() {
         <nav>
           <ul>
             <li><NavLink to="/">Accueil</NavLink></li>
-            <li><NavLink to="/">Qui sommes nous?</NavLink></li>
-            <li><NavLink to="/">Contact</NavLink></li>
+            <li><HashLink to="/#qui">Qui sommes nous?</HashLink></li>
+            <li><HashLink to="/#footer">Contact</HashLink></li>
             <li>
               <img className="connectLogo" src={connexion} alt="Connexion" />
 

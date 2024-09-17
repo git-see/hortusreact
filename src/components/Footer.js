@@ -1,16 +1,15 @@
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <footer>
         <hr />
         <div className="footerDiv">
           <div>
             <ul>
               <li>
-                {" "}
                 <u>Siège</u>:<br />0 rue dici
                 <br />
-                00000 VILLE{" "}
+                00000 VILLE
               </li>
               <li>hortus.mail@mail</li>
               <li>tél: 00.00.00.00.00</li>
@@ -49,6 +48,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
+                  className="s3-btn"
                   name="Open"
                   onclick="popupOpen();"
                 >
