@@ -14,5 +14,4 @@ root.render(
   </React.StrictMode>
 );
 
-// HERE: $ npm i react-router-dom => package.json => BrowserRouter (Routes/Route) & add NavLink with condition (isActive:bool)
 reportWebVitals();

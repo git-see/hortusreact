@@ -39,7 +39,7 @@ export default function Connexion() {
             </button>
           </div>
           <p>
-          <NavLink to="/inscription">M'inscrire</NavLink>
+            <NavLink to="/inscription">M'inscrire</NavLink>
           </p>
         </div>
       </form>

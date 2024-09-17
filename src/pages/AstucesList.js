@@ -6,7 +6,7 @@ export default function AstuceList() {
       <div>
         <div className="butBtn">
           <button className="ajouterAstuce">
-          <NavLink to="/connexion">Ajouter une astuce</NavLink>
+            <NavLink to="/connexion">Ajouter une astuce</NavLink>
           </button>
         </div>
 

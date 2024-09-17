@@ -28,13 +28,11 @@ html {
   flex-wrap: wrap;
 }
 
-.headerUp .logoConnect ul,
-.headerDown ul {
+.headerUp .logoConnect ul {
   width: 600px;
 }
 
-.headerUp .logoConnect ul,
-.headerDown ul {
+.headerUp .logoConnect ul {
   display: flex;
   justify-content: space-around;
 }
@@ -44,26 +42,24 @@ html {
   color: #046516;
 }
 
-.headerUp li,
-.headerDown li{
+.headerUp li {
   list-style: none;
 }
 
-.headerUp a{
+.headerUp a {
   color: darkslategrey;
 }
 
-.headerUp a,
-.headerDown li a {
+.headerUp a {
   text-decoration: none;
   font-size: 20px;
 }
 
-.headerUp a:hover{
+.headerUp a:hover {
   color: #ff6600;
 }
 
-.headerUp a:active{
+.headerUp a:active {
   color: #ff6600;
 }
 
@@ -75,53 +71,4 @@ html {
   font-size: 25px;
   padding: 30px 0px;
   background-color: beige;
-}
-
-/* HEADER - DOWN */
-.headerDown,
-.headerDown ul {
-  width: 100%;
-}
-.headerDown {
-  height: 100px;
-  display: flex;
-  justify-content: end;
-  color: white;
-}
-
-.headerDown li {
-  width: 150px;
-  background-color: #adcfcb;
-  padding: 15px;
-  border: 0.5px solid beige;
-  text-align: center;
-}
-
-.headerDown li a {
-  color: #046516;
-  font-weight: bold;
-}
-
-.tooltip {
-  position: relative;
-}
-
-.tooltip .tooltiptext {
-  top: -1px;
-  right: 1em;
-  visibility: hidden;
-  width: 130px;
-  background-color: darkslategrey;
-  color: beige;
-  font-size: 15px;
-  text-align: center;
-  font-weight: normal;
-  padding-bottom: 4px;
-  border-radius: 2px;
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
 }

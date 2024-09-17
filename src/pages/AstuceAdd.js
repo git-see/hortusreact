@@ -53,7 +53,8 @@ export default function AstuceAdd() {
               className="domaineButton"
               type="submit"
               name="domaineButton"
-              id="domaineButton">
+              id="domaineButton"
+            >
               Ajouter
             </button>
           </div>

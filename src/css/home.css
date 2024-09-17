@@ -1,52 +1,52 @@
-.home{
-    background-image: url(../images/green-flower.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.home {
+  background-image: url(../images/green-flower.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-  
-  /* AGIR*/
-  /* QUI SOMMES-NOUS **/
-  .content {
-    width: 60%;
-    margin: 0 auto;
-  }
-  
-  .content h1,
-  .content .qui,
-  .content .partenaires {
-    text-align: center;
-    line-height: 80px;
-    color: #046516;
-    font-size: 40px;
-    padding: 40px 0 60px 0;
-  }
-  
-  .content h2 {
-    text-align: center;
-    color: darkslategrey;
-    font-size: 30px;
-    padding: 40px 0 60px 0;
-  }
-  
-  .content p {
-    color: darkslategrey;
-    font-size: 20px;
-    padding: 0 0 60px 0;
-  }
-  
-  .references p {
-    font-size: 10px;
-    font-style: italic;
-  }
-  
-  /* PARTENAIRES */
+
+/* AGIR*/
+/* QUI SOMMES-NOUS **/
+.content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.content h1,
+.content .qui,
+.content .partenaires {
+  text-align: center;
+  line-height: 80px;
+  color: #046516;
+  font-size: 40px;
+  padding: 40px 0 60px 0;
+}
+
+.content h2 {
+  text-align: center;
+  color: darkslategrey;
+  font-size: 30px;
+  padding: 40px 0 60px 0;
+}
+
+.content p {
+  color: darkslategrey;
+  font-size: 20px;
+  padding: 0 0 60px 0;
+}
+
+.references p {
+  font-size: 10px;
+  font-style: italic;
+}
+
+/* PARTENAIRES */
 .partenairesDiv {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
 .partenairesDiv img {
-    width: 150px;
-  }
+  width: 150px;
+}
