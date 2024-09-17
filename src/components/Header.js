@@ -1,6 +1,7 @@
 import React from "react";
 import logoHortus from "../images/logoHortus.png";
 import connexion from "../images/connexion.png";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
     return (
@@ -14,9 +15,9 @@ export default function Header() {
       <div className="logoConnect">
         <nav>
           <ul>
-            <li>Accueil</li>
-            <li>Qui sommes nous?</li>
-            <li>Contact</li>
+            <li><NavLink to="/">Accueil</NavLink></li>
+            <li><NavLink to="/">Qui sommes nous?</NavLink></li>
+            <li><NavLink to="/">Contact</NavLink></li>
             <li>
               <img className="connectLogo" src={connexion} alt="Connexion" />
 
@@ -42,11 +43,11 @@ export default function Header() {
     <div className="headerDown">
       <nav>
         <ul>
-          <li className="tooltip">Culture</li>
-          <li className="tooltip">Nuisibles</li>
-          <li className="tooltip">Rescousse</li>
-          <li className="tooltip">Arrosage</li>
-          <li className="tooltip">Recettes</li>
+          <li className="tooltip"><NavLink to="/list">Culture</NavLink></li>
+          <li className="tooltip"><NavLink to="/list">Nuisibles</NavLink></li>
+          <li className="tooltip"><NavLink to="/list">Rescousse</NavLink></li>
+          <li className="tooltip"><NavLink to="/list">Arrosage</NavLink></li>
+          <li className="tooltip"><NavLink to="/list">Recettes</NavLink></li>
         </ul>
       </nav>
     </div>

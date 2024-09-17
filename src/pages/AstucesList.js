@@ -1,10 +1,12 @@
+import { NavLink } from "react-router-dom";
+
 export default function AstuceList() {
   return (
     <div className="astuce-list">
       <div>
         <div className="butBtn">
           <button className="ajouterAstuce">
-            <a href="/formulaires/formulaire.php">Ajouter une astuce</a>
+          <NavLink to="/connexion">Ajouter une astuce</NavLink>
           </button>
         </div>
 
