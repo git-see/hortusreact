@@ -1,0 +1,66 @@
+.domaine {
+    text-align: center;
+    color: #046516;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px 0px;
+  }
+
+.form {
+  width: 700px;
+  margin: auto;
+  padding: 100px 0px;
+  border-radius: 5px;
+  background-color: #adcfcb;
+  color: white;
+  font-size: 20px;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+}
+
+.formDiv div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.form input,
+.form select {
+  width: 400px;
+  height: 40px;
+}
+
+.form textarea {
+  width: 400px;
+  height: 200px;
+}
+
+.form input,
+.form textarea,
+.form select {
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.form select {
+  color: #046516;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form .domaineButton {
+  width: 400px;
+  height: 50px;
+  margin: auto;
+  padding: 10px 0;
+  background-color: #046516;
+  color: beige;
+  font-size: 20px;
+}
