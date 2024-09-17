@@ -1,0 +1,55 @@
+.nav {
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  color: white;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav,
+.nav ul {
+  width: 100%;
+}
+
+.nav li {
+  list-style: none;
+  width: 150px;
+  background-color: #adcfcb;
+  padding: 15px;
+  border: 0.5px solid beige;
+  text-align: center;
+}
+
+.nav li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #046516;
+  font-weight: bold;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  top: -1px;
+  right: 1em;
+  visibility: hidden;
+  width: 130px;
+  background-color: darkslategrey;
+  color: beige;
+  font-size: 15px;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

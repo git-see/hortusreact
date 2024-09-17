@@ -1,4 +1,5 @@
-.connexion, .inscription {
+.connexion,
+.inscription {
   text-align: center;
   color: #046516;
   font-size: 30px;
@@ -16,14 +17,16 @@
   font-size: 20px;
 }
 
-.connexionDiv, .inscriptionDiv{
+.connexionDiv,
+.inscriptionDiv {
   display: flex;
   flex-direction: column;
   align-items: center;
   line-height: 30px;
 }
 
-.connexionDiv div, .inscriptionDiv div{
+.connexionDiv div,
+.inscriptionDiv div {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
@@ -38,7 +41,8 @@
   padding: 5px;
 }
 
-.form .connexionButton, .form .inscriptionButton{
+.form .connexionButton,
+.form .inscriptionButton {
   width: 400px;
   height: 50px;
   margin: auto;

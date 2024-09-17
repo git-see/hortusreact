@@ -1,7 +1,7 @@
-@import './header.css';
-@import './home.css';
-@import './footer.css';
-@import './astuce-add.css';
-@import './astuces-list.css';
-@import './connexion-inscription.css';
-@import './popup.css';
+@import "./header.css";
+@import "./navigation.css";
+@import "./home.css";
+@import "./footer.css";
+@import "./astuce-add.css";
+@import "./astuces-list.css";
+@import "./connexion-inscription.css";
