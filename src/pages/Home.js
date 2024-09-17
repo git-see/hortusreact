@@ -75,7 +75,7 @@ export default function Home() {
         </div>
       </div>
       <div className="content">
-        <h2 className="qui">QUI SOMMES-NOUS ?</h2>
+        <h2 className="qui" id="qui">QUI SOMMES-NOUS ?</h2>
         <div>
           <h2>
             Une association engagée
