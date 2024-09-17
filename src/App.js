@@ -1,3 +1,5 @@
+import { Routes, Route } from "react-router-dom";
+
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
@@ -5,19 +7,21 @@ import AstuceAdd from "./pages/AstuceAdd";
 import AstuceList from "./pages/AstucesList";
 import Connexion from "./pages/Connexion";
 import Inscription from "./pages/Inscription";
-import './css/app.css';
+import "./css/app.css";
 
 function App() {
   return (
     <>
       <Header />
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/add" element={<AstuceAdd />} />
+        <Route path="/list" element={<AstuceList />} />
+        <Route path="/connexion" element={<Connexion />} />
+        <Route path="/inscription" element={<Inscription />} />
+      </Routes>
       <Footer />
-      <AstuceAdd />
-      <AstuceList />
-      <Connexion />
-      <Inscription />
-      </>
+    </>
   );
 }
 
