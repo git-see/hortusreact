@@ -6,7 +6,7 @@ export default function Connexion() {
       <h2 className="connexion">Connexion</h2>
 
       <form
-        action="/database/connexion_inscription/connexion.php"
+        action="/src/database/connexion_inscription/connexion.php"
         method="post"
         className="form"
       >

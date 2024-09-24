@@ -6,19 +6,19 @@ export default function Navigation() {
       <nav>
         <ul>
           <li className="tooltip">
-            <NavLink to="/list">Culture</NavLink>
+            <NavLink to="/list-culture">Culture</NavLink>
           </li>
           <li className="tooltip">
-            <NavLink to="/list">Nuisibles</NavLink>
+            <NavLink to="/list-nuisible">Nuisibles</NavLink>
           </li>
           <li className="tooltip">
-            <NavLink to="/list">Rescousse</NavLink>
+            <NavLink to="/list-rescousse">Rescousse</NavLink>
           </li>
           <li className="tooltip">
-            <NavLink to="/list">Arrosage</NavLink>
+            <NavLink to="/list-arrosage">Arrosage</NavLink>
           </li>
           <li className="tooltip">
-            <NavLink to="/list">Recettes</NavLink>
+            <NavLink to="/list-recettes">Recettes</NavLink>
           </li>
         </ul>
       </nav>
