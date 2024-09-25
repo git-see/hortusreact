@@ -21,5 +21,6 @@
 #### $\mathcal{\color{magenta}{ 3) Lier \ le \ back \ avec \ json \ puis \ axios }}$ <br>
 
 
-![Participez à la protection de la planète](/images/hortus-logo2.png) 
+![Participez à la protection de la planète](/images/hortus-logo2.png) <br>
+![hortus-logo2](https://github.com/user-attachments/assets/9a8d1b42-0307-4980-87b1-ba95048d0e8d)
 ###### $\mathcal{\color{olive}{ Participez \ à \ la \ protection \ de \ la \ planète: \ transmettez \ vos \ savoirs}}$
