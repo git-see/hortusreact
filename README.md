@@ -20,7 +20,5 @@
 #### $\mathcal{\color{blue}{ 2) \ Le \ Back: \  EN \ PHP,  \ et \ SQL }}$ <br>
 #### $\mathcal{\color{magenta}{ 3) Lier \ le \ back \ avec \ json \ puis \ axios }}$ <br>
 
-
-![Participez à la protection de la planète](/images/hortus-logo2.png) <br>
-![hortus-logo2](https://github.com/user-attachments/assets/9a8d1b42-0307-4980-87b1-ba95048d0e8d)
+![hortusLogo](https://github.com/user-attachments/assets/e3044c97-2cfc-49c0-88c4-74b314d29318)
 ###### $\mathcal{\color{olive}{ Participez \ à \ la \ protection \ de \ la \ planète: \ transmettez \ vos \ savoirs}}$
