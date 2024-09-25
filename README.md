@@ -1,5 +1,4 @@
 [![](https://img.shields.io/badge/PHP-blue?style=for-the-badge)]
-[![](https://img.shields.io/badge/CSS-blueviolet?style=for-the-badge)]
 [![](https://img.shields.io/badge/REACT-yellow?style=for-the-badge)]
 <br>
 <br>
