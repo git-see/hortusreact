@@ -17,7 +17,7 @@
 
 #### $\mathcal{\color{lime}{ 1) \ Le \ Front: \ avec \ REACT }}$ <br>
 #### $\mathcal{\color{blue}{ 2) \ Le \ Back: \  EN \ PHP,  \ et \ SQL }}$ <br>
-#### $\mathcal{\color{magenta}{ 3) Lier \ le \ back \ avec \ json \ puis \ axios }}$ <br>
+#### $\mathcal{\color{magenta}{ 3) \ Appeler \ la \ base \ avec \ axios \ en \ json \ }}$ <br>
 
 ![hortusLogo](https://github.com/user-attachments/assets/e3044c97-2cfc-49c0-88c4-74b314d29318)
 ###### $\mathcal{\color{olive}{ Participez \ à \ la \ protection \ de \ la \ planète: \ transmettez \ vos \ savoirs}}$
